@@ -1,0 +1,26 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "A Sua saúde a um click, Com Andefil, é um serços de pré-diagnóstico e agendamento de consultas médicas, que visa facilitar o acesso à saúde de aqualidade e descontos exclusivos.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "install": "^0.13.0",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.17.1",
+    "npm": "^11.5.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.32.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
